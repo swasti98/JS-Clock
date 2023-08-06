@@ -48,3 +48,10 @@
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
+    .second-hand{
+      background-color:red;
+    }
+    .hour-hand{
+      width:35%;
+      left:15%;
+    }
