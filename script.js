@@ -21,3 +21,10 @@ const secondHand = document.querySelector('.second-hand');
   setInterval(setDate, 1000);
 
   setDate();
+  
+minsHand.style.backgroundColor = 'blue';
+hourHand.style.backgroundColor = 'green';
+
+secondHand.style.height = '1px';
+minsHand.style.height = '3px';
+
